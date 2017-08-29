@@ -30,18 +30,18 @@ void runProgram(GLFWwindow* window)
     glEnable(GL_CULL_FACE);
 
     // Set default colour after clearing the colour buffer
-    glClearColor(0.3f, 0.5f, 0.8f, 1.0f);
+    glClearColor(0.3f, 0.5f, 0.4f, 1.0f);
 
     // Set up your scene here (create Vertex Array Objects, etc.)
 	float vertices[] = {
-		-0.5f, -0.5f, 0.0f,
-		0.5f, -0.5f, 0.0f, 
-		0.0f,  0.5f, 0.0f
+		-0.6f, -0.6f, 0.0f,
+		0.6f, -0.6f, 0.6f,
+		0.0f,  0.0f, 0.0f,
 	};
 
 	unsigned int indices[] =
 	{
-		1, 2, 3
+		0, 1, 2
 	};
 
 	
